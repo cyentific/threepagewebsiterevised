@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Days+One&display=swap');
+
+*/* {
+  box-sizing: border-box;
+}
+
+
+
+a, a:visited {
+  color: #000;
+  text-deocarion: none; /* Removes underline */
+}
+
+#header {
+  font-family: 'Days One', sans-serif;
+  font-size: 50px;
+  padding: 8px;
+  border: 2px;
+  margin: 1px;
+}
+#urban {
+  font-family: 'Days One', sans-serif;
+  font-size: 50px;
+  padding: 8px;
+  border: 2px;
+  margin: 1px;
+  display: inline-flex;
+  align-self: flex-start;
+  background-color: #235ae6;
+}
+#displacement {
+  font-family: 'Days One', sans-serif;
+  font-size: 50px;
+  padding: 12px;
+  /* You can use padding-top, padding-right, padding-bottom, and padding-left to
+     control the padding on individual sides of an element, see below. */
+  border: 2px;
+  margin: 1px;
+  display: inline-flex;
+  background-color: #ffeb67;
+  align-self: flex-end;
+  top: 20px;
+  left: 20px; /* Just pushing the element down 25px from the top */
+  /* right: 0; */
+  left: 150px; /* Moving it over 150px from the left */
+}
+
+/*#urban {
+  vertical-align: top; /* Causes the #urban DIV to align to the top of the #logosection DIV,
+                          instead of the default behavior which will push it down to the bottom */
+}
+
+#displacement {
+  position: static; /* This is the "default" value for position– resetting the CSS we have above */
+  margin-top: 15px;
+  margin-left: -17px;
+}
+
+#logo {
+  align-self: flex-end;
+  top: -11px;
+  margin-left: 10px;
+  right:-77px;
+
+
+}
+
+
+#intro {
+  font-family: 'Days One', sans-serif;
+  font-size: 25px;
+  justify-content: flex-end;
+
+
+
+}
+
+#researchintro {
+  font-family: 'Days One', sans-serif;
+  font-size: 25px;
+  padding: 8px;
+  border: 2px;
+  margin: 1px;
+  top: -20px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+#whatwedo {
+  display: inline-flex;
+  align-content: : center;
+
+
+}
+
+#comingsoon {
+  font-family: 'Days One', sans-serif;
+  font-size: 60;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#reporttag {
+  font-family: 'Days One', sans-serif;
+  font-size: 40px;
+  color: Black;
+  padding: 8px;
+  background-color: #4eb350;
+  border: 2px;
+  margin: 1px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+
+}
+#report1 {
+  font-family: 'Days One', sans-serif;
+  font-size: 25px;
+  font-family: 'Days One', sans-serif;
+  font-size: 40px;
+  color: Black;
+  padding: 8px;
+  background-color: #4eb350;
+  border: 2px;
+  margin: 1px;
+  display: inline-block;
+  position: absolute;
+}
+
+#reportbox1 {
+  font-family: 'Days One', sans-serif;
+  font-size: 25px;
+  font-family: 'Days One', sans-serif;
+  font-size: 40px;
+  color: Black;
+  padding: 8px;
+  background-color: #4eb350;
+  border: 2px;
+  margin: 1px;
+  display: inline-block;
+  position: relative;
+}
+
+.logosection {
+ display: inline-flex;
+ justify-content: flex-start;
+ font-family: 'Days One', sans-serif;
+ font-size: 40px;
+ padding: 16px;
+ border: 4px;
+ margin: 3px;
+}
+
+ .navigation {
+  font-family: 'Days One', sans-serif;
+  font-size: 40px;
+  color: Black;
+  padding: 8px;
+  border: 2px;
+  margin: 1px;
+  display: inline-flex;
+  align-self: flex-end;
+}
+
+.navButton {
+  display: inline-flex;
+  background-color: #69b05a;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.homeButton {
+  display: inline-flex;
+}
+
+.logosection {
+ display: inline-flex;
+ font-family: 'Days One', sans-serif;
+ font-size: 40px;
+ padding: 12px;
+ border: 2px;
+ margin: 1px;
+}
+
+.contentContainer{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.leftcolumn {
+ display: inline-flex;
+ width: 25%;
+ vertical-align: top;
+ /* position: absolute; */
+}
+
+.wideGraphic {
+  width: 90%;
+  padding-left:60px
+  display: inline-flex;
+  justify-content: flex-start;
+
+}
+
+.rightcolumn {
+  width: 74%;
+ display: inline-flex;
+ justify-content: flex-end;
+
+ /* position: absolute; */
+}
+
+
+.quotes {
+font-size: 60px;
+font-family: 'Days One', sans-serif;
+display: inline-flex;
+margin: 0px;
+padding: 0px; /* Removing extra margin / padding from Quotes */
+line-height: 30px; /* Giving a fixed line height so that the special large "quotes" don't add extra space on their lines */
+}
+
+.reportbox {
+ display: inline-flex;
+ justify-content: flex-start;
+ flex-wrap: wrap;
+ font-family: 'Days One', sans-serif;
+ font-size: 40px;
+
+}
+
+#quote, #mapcolumn  {
+
+  display: inline-flex;
+}
+
+#quote {
+  font-family: 'Days One', sans-serif;
+  font-size: 25px;
+  line-height: 30px; /* Giving a fixed line height so that the special large "quotes" don't add extra space on their lines */
+  width: 39%;
+  padding-right: 25px;
+
+}
+
+#mainQuoteText {
+  margin: 0px;
+  padding: 0px;
+}
+
+#mapcolumn {
+  width: 60%;
+}
